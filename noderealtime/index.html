@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body"></div>
+    <form class="form1">
+        <input type="text" id="input1">
+        <button type="submit" id="btn1"></button>
+    </form>
+</body>
+<script defer src="http://localhost:3100/socket.io/socket.io.js"></script>
+<script defer src="script.js"></script>
+<style>
+
+    .body{
+        height: 90vh;
+        display: flex;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+    .body div{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .form1{
+        height: 31px;
+        border: 1px solid red;
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        height: 41px;
+        flex: 10;
+    }
+    button{
+        flex: 4;
+        height: 31px;
+    }
+
+
+
+
+
+</style>
+</html>
